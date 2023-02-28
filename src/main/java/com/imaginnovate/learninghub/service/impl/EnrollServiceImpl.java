@@ -1,4 +1,4 @@
-package com.imaginnovate.learninghub.service;
+package com.imaginnovate.learninghub.service.impl;
 
 import java.util.List;
 
@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.imaginnovate.learninghub.entity.Enroll;
 import com.imaginnovate.learninghub.repository.EnrollRepository;
+import com.imaginnovate.learninghub.service.EnrollService;
 
 @Service
 public class EnrollServiceImpl implements EnrollService {

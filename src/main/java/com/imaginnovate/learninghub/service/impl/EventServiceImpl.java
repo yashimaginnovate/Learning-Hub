@@ -1,4 +1,4 @@
-package com.imaginnovate.learninghub.service;
+package com.imaginnovate.learninghub.service.impl;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.imaginnovate.learninghub.entity.Event;
 import com.imaginnovate.learninghub.repository.EventRepository;
+import com.imaginnovate.learninghub.service.EventService;
 
 @Service
 public class EventServiceImpl implements EventService {

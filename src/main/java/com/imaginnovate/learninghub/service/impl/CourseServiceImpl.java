@@ -1,4 +1,4 @@
-package com.imaginnovate.learninghub.service;
+package com.imaginnovate.learninghub.service.impl;
 
 import java.util.List;
 
@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.imaginnovate.learninghub.entity.Course;
 import com.imaginnovate.learninghub.repository.CourseRepository;
+import com.imaginnovate.learninghub.service.CourseService;
 
 @Service
 public class CourseServiceImpl  implements CourseService{
