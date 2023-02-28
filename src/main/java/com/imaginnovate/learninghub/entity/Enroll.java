@@ -1,8 +1,15 @@
 package com.imaginnovate.learninghub.entity;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table
 public class Enroll {
 	
-	private int id;
+	@Id
+	private long id;
 	
 	private String name;
 	
@@ -14,7 +21,7 @@ public class Enroll {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(long id) {
 		this.id = id;
 	}
 
